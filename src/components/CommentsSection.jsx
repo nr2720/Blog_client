@@ -7,8 +7,8 @@ import axios from '../api/axios';
 
 import AllComments from './AllComments';
 
-const commentUrl = 'http://localhost:3000/comments';
-const authUrl = 'http://localhost:3000/comments/auth';
+// const commentUrl = 'http://localhost:3000/comments';
+const commentUrl = 'https://southern-garnet-nr2720-be789e35.koyeb.app/comments/auth';
 
 export const CommentsSection = ({post}) => {
   const [userWants, setUserWants] = useState(false);

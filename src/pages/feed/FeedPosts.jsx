@@ -10,7 +10,8 @@ import FeedPostComp from './FeedPostComp';
 import { CommentsSection } from '../../components/CommentsSection';
 
 
-const getPostUrl = 'http://localhost:3000/posts/feed';
+// const getPostUrl = 'http://localhost:3000/posts/feed';
+const getPostUrl = 'https://southern-garnet-nr2720-be789e35.koyeb.app/posts/feed';
 
 
 

@@ -10,7 +10,8 @@ const PWD_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
 const REGISTER_URL = '/register';
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-const register_url = 'http://localhost:3000/users/register';
+// const register_url = 'http://localhost:3000/users/register';
+const register_url = 'https://southern-garnet-nr2720-be789e35.koyeb.app/users/register';
 
 import React from 'react'
 import Header from "../../../components/Header";

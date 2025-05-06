@@ -10,8 +10,11 @@ const LikeDislikeToggle = ({ postId, alreadyLiked, alreadyDisliked }) => {
   const [intsData, setIntsData] = useState({ likes: [], dislikes: [] });
   const [ready, setReady] = useState(false); // vrai quand post prêt
 
-  const url = 'http://localhost:3000/posts/likes';
-  const interactions = 'http://localhost:3000/posts/interactions';
+  const url = 'https://southern-garnet-nr2720-be789e35.koyeb.app/posts/likes';
+  const interactions = 'https://southern-garnet-nr2720-be789e35.koyeb.app/posts/interactions';
+
+  // const url = 'http://localhost:3000/posts/likes';
+  // const interactions = 'http://localhost:3000/posts/interactions';
 
   // Reset quand le postId change
     useEffect(() => {

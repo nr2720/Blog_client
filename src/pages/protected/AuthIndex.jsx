@@ -68,7 +68,7 @@ const AuthIndex = () => {
           formData.append('file', file);
 
           //send data
-          await axios.post('http://localhost:3000/users/pdp', 
+          await axios.post('https://southern-garnet-nr2720-be789e35.koyeb.app/users/pdp', 
             formData,
             {
                 headers: { 

@@ -22,7 +22,8 @@ const FeedPostComp = ({post, handleRightClick, handleLeftClick, indexPost}) => {
 
 
   //url
-  const likedUrl = 'http://localhost:3000/posts/ulikes';
+  // const likedUrl = 'http://localhost:3000/posts/ulikes';
+  const likedUrl = 'https://southern-garnet-nr2720-be789e35.koyeb.app/posts/ulikes';
 
 
 

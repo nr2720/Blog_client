@@ -6,7 +6,8 @@ import  { Navigate } from 'react-router-dom'
 
 const CreatePost = () => {
 //url
-const url = 'http://localhost:3000/posts/create'
+// const url = 'http://localhost:3000/posts/create'
+const url = 'https://southern-garnet-nr2720-be789e35.koyeb.app/posts/create'
 
 
 //data

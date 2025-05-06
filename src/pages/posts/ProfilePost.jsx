@@ -10,9 +10,14 @@ import Post from '../../components/Post';
 
 const ProfilePost = () => {
 //url
-const url = 'http://localhost:3000/posts/myposts'
-const delete_url = 'http://localhost:3000/posts/delete'
-const modify_url = 'http://localhost:3000/posts/modify'
+// const url = 'http://localhost:3000/posts/myposts'
+// const delete_url = 'http://localhost:3000/posts/delete'
+// const modify_url = 'http://localhost:3000/posts/modify'
+
+const url = 'https://southern-garnet-nr2720-be789e35.koyeb.app/posts/myposts'
+const delete_url = 'https://southern-garnet-nr2720-be789e35.koyeb.app/posts/delete'
+const modify_url = 'https://southern-garnet-nr2720-be789e35.koyeb.app/posts/modify'
+
 
 
 //state

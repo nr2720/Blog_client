@@ -8,9 +8,12 @@ const AllComments = ({comments, refetch}) => {
   const [token, setToken] = useState(auth.token);
   const [user, setUser] = useState('');
 
+  const deleteUrl = 'https://southern-garnet-nr2720-be789e35.koyeb.app/comments/';
+  const authUrl = 'https://southern-garnet-nr2720-be789e35.koyeb.app/comments/auth';
 
-  const deleteUrl = 'http://localhost:3000/comments/';
-  const authUrl = 'http://localhost:3000/comments/auth';
+
+  // const deleteUrl = 'http://localhost:3000/comments/';
+  // const authUrl = 'http://localhost:3000/comments/auth';
 
   useEffect(() => {
     const fetchUser = async() => {
