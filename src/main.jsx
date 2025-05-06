@@ -10,10 +10,6 @@ import AuthProvider from './components/AuthProvider.jsx';
 import Routes from './components/Routes.jsx'
 
 
-
-
-
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AuthProvider>
