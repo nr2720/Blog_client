@@ -11,7 +11,7 @@ import Header from '../../components/Header';
 
 const AuthIndex = () => {
   //server url
-  const profileUrl = 'http://localhost:3000/users/protected'
+  const profileUrl = 'https://southern-garnet-nr2720-be789e35.koyeb.app/users/protected'
 
   //get the token
   const auth = useAuth();
