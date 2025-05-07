@@ -81,6 +81,7 @@ export const CommentsSection = ({post}) => {
                     withCredentials: true
                 }
             )
+            if(!response.data.data) {return}
             setAllComments(response.data.data);
             setIsLoading(false);
 
