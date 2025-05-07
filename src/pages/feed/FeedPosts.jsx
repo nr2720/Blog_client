@@ -56,6 +56,9 @@ const [token, setToken] = useState(auth.token);
                 },
                 withCredentials: true
               });
+              if(!response.data.data){
+                return;
+              }
               setPosts(response.data.data);
         } catch (error) {
             console.error(error);
